@@ -15,9 +15,9 @@ abstract class Presenter<Model,ViewModel> {
 
 /// A `UseCase` is typically implemented by an interactor.
 /// It executes the business logic of the use case.
-abstract class UseCase<Request> {
+abstract class UseCase<RequestType,Model,ViewModel> {
   /// The [Presenter] to use.
-  Presenter presenter;
+  Presenter<Model,ViewModel> presenter;
   /// Executes the UseCase for the given [request].
-  void execute({Request request,Displayer displayer});
+  void execute({RequestType request,Displayer displayer});
 }
