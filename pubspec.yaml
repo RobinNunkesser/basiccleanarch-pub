@@ -1,8 +1,8 @@
-name: BasicCleanArch
+name: basic_clean_arch
 description: Basic clean architecture is a set of helpful protocols for the basic concepts of Clean Architecture like Interactors, Entities, Presenters, and Boundaries.
 version: 0.0.1
-author: Robin Nunkesser
-homepage:
+author: Robin Nunkesser <Robin.Nunkesser@hshl.de>
+homepage: https://github.com/RobinNunkesser/basiccleanarch-pub
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
